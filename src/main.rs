@@ -9,8 +9,8 @@ use std::time;
 fn main() -> Result<()> {
     // Config
     let allocation_callbacks = None;
-    let width = 4096;
-    let height = 4096;
+    let width = 1080;
+    let height = 1080;
     let value_count = width * height;
     let alpha = 255;
     let red = 70;
