@@ -1,3 +1,5 @@
+mod app;
+
 use anyhow::Result;
 use ash::{self, vk};
 use gpu_allocator::{
